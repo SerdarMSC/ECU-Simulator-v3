@@ -6,7 +6,6 @@
   <img src="https://github.com/user-attachments/assets/314b50b2-5bfd-4675-b2d1-a759e327b3a3" width="320" alt="image">
 </div>
 
-
 ## 📖 Overview
 This project provides a fully interactive ECU simulator designed for testing OBD-II diagnostic applications (such as Torque, Car Scanner, or custom Android APKs) in a lab environment. It connects to a physical CAN bus via an **Arduino** board equipped with an **MCP2515 CAN module**, bridging the gap between your PC and an **ELM327** Bluetooth adapter.
 The simulator responds to standard OBD-II requests (`0x7DF`) with realistic ECU data (`0x7E8`) and supports manual control over all major sensor parameters, fault code injection, and real-time CAN traffic monitoring.
@@ -26,6 +25,7 @@ Simülatör, standart OBD-II isteklerine (`0x7DF`) gerçekçi ECU verileriyle (`
 
 ## ⚙️ Arduino Firmware (SLCAN/CanHacker)
 Upload the following firmware to your Arduino using the **CanHacker** or **SLCAN** library:
+
 **CanHacker** veya **SLCAN** kütüphanesini kullanarak aşağıdaki aygıt yazılımını Arduino'nuza yükleyin:
 
 ---------- ino file / ino dosyası -----------

@@ -2,7 +2,7 @@
 
 ## 📖 Gerçek bir araç olmaksızın OBD-II arıza tespit cihazlarının bağlanıp canlı sensör verilerini okumasını sağlayan; fiziksel bir CAN veri yolu üzerinden araç ECU'sunu (Elektronik Kontrol Ünitesi) simüle eden bir Windows Forms uygulaması.
 
-<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/314b50b2-5bfd-4675-b2d1-a759e327b3a3" />
+<center><img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/314b50b2-5bfd-4675-b2d1-a759e327b3a3" /><center/>
 
 
 ## 📖 Overview

@@ -10,6 +10,8 @@ The simulator responds to standard OBD-II requests (`0x7DF`) with realistic ECU 
 Bu proje, laboratuvar ortamında OBD-II teşhis uygulamalarını (Torque, Car Scanner veya özel Android APK'ları gibi) test etmek üzere tasarlanmış, tam etkileşimli bir ECU simülatörü sunar. Sistem, **MCP2515 CAN modülü** ile donatılmış bir **Arduino** kartı aracılığıyla fiziksel bir CAN veri yoluna bağlanarak, bilgisayarınız ile bir **ELM327** Bluetooth adaptörü arasında köprü görevi görür.
 Simülatör, standart OBD-II isteklerine (`0x7DF`) gerçekçi ECU verileriyle (`0x7E8`) yanıt verir; ayrıca tüm temel sensör parametrelerinin manuel kontrolünü, arıza kodu enjeksiyonunu ve gerçek zamanlı CAN trafiği izlemeyi destekler.
 
+<img width="986" height="813" alt="image" src="https://github.com/user-attachments/assets/509e9b0f-f4c7-4bfe-bb43-db485dd91efa" />
+
 | Component | Recommended Model |
 |-----------|-------------------|
 | **Microcontroller** | Arduino Uno / Leonardo / Nano |
